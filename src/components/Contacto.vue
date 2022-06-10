@@ -3,10 +3,10 @@
        <v-card  width="45%" class="pl-2 grey--text" height="250" elevation="0" color="transparent">
           <p class="text-left font-weight-bold text-overline" >
             <v-icon left color="grey">mdi-minus</v-icon>
-            CONTACTO
+            {{ $t('contacto.titulo') }} 
           </p>
           <div class="text-left pt-3">
-              <p class="font-weight-bold text-subtitle-1 mb-2">¿NECESITAS MAS INFORMACION?</p>
+              <p class="font-weight-bold text-subtitle-1 mb-2">{{ $t('contacto.pregunta') }} </p>
               <v-btn  outlined color="grey" class="text-caption rounded-0" target="_blank" href="https://api.whatsapp.com/send?phone=3223524812&text=Hola!%20">
                   <v-icon left>
                       mdi-whatsapp

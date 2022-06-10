@@ -4,9 +4,11 @@
       <div class="d-flex pl-5 white--text">          
              <v-icon left color="grey" large >mdi-minus</v-icon> 
           <div class="d-flex flex-column align-start">
-              
-              <p class="font-weight-bold text-h6 mb-0">Benjamin Gutierrez</p>
-              <p class="font-weight-light text-caption">Pianista / clases de piano</p>
+             
+              <p class="font-weight-bold text-h5 mb-0">Benjamin Gutierrez</p>
+              <p class="font-weight-light text-caption">
+              {{ $t('profesion') }} / {{ $t('curso') }} 
+              </p>
           </div>
       </div>
       <v-btn class="rounded-0" small  @click="$vuetify.goTo('#sobremi', 950)">

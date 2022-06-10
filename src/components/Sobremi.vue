@@ -6,20 +6,16 @@
         <p class="font-weight-bold text-subtitle-2" >
             <v-icon left color="grey">mdi-minus
 
-            </v-icon
-            >SOBRE MI
+            </v-icon >
+            {{ $t('sobremi.titulo') }} 
         </p>
       </div>
       <p class="font-weight-light px-3 text-button text-left" >
-        It is a long established fact that a reader will be distracted by the
-        readable content of a page when looking at its layout. The point of
-        using Lorem Ipsum is that it has a more-or-less normal distribution of
-        letters, as opposed to using 'Content here, content here', making it
-        look like readable English.
+        {{ $t('sobremi.data') }} 
       </p>
     </div>
-    <div class="text-left pt-5 pa-4">
-        <p>redes sociales :</p>
+    <div class="text-left pt-0 pa-4">
+        <p>{{ $t('sobremi.titulo_redes') }} </p>
         <div class="pa-0 ma-0">
             <v-btn class="" text small target="_blank" href="https://www.facebook.com/benja.whereisbj">
                <v-icon color="grey" > mdi-facebook</v-icon>
